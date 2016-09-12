@@ -1,2 +1,5 @@
-# geographyjs-collaborators
-eestes es el repositorio del proyecto geographyjs alimentado por los colaboradores de la comunidad MonteriaJS
+# GeographyJS
+
+> Librería desarrollada por la comunidad MonteríaJS
+
+Este es el repositorio del proyecto **GeographyJS** desarrollado por los colaboradores de la comunidad MonteríaJS
