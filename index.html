@@ -3,12 +3,14 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>GeographyJS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<nav>
-		<div class="nav-wrapper">
+	<nav class="menu">
+		<div class="nav-wrapper light-green accent-4">
 			<a href="#" class="brand-logo">GeographyJS</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="#">Inicio</a></li>
@@ -19,21 +21,21 @@
 	</nav>
 
 	<section class="geography">
-		<article class="geography__info">
-			<h2 class="geography__info__title">¡Bienvenido a GeographyJS!</h2>
-			<p class="geography__info__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ea! A ea dignissimos, nam quasi placeat officiis quidem numquam, itaque minima. Magni alias odit, fuga beatae iste sed eos fugit.</p>
+		<article class="row geography__info z-depth-1">
+			<h1 class="col s12 geography__info__title">¡Bienvenido a GeographyJS!</h1>
+			<div class="divider col s12"></div>
+			<p class="col s12 geography__info__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ea! A ea dignissimos, nam quasi placeat officiis quidem numquam, itaque minima. Magni alias odit, fuga beatae iste sed eos fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, in? Omnis nam qui quisquam reprehenderit a deleniti veniam, blanditiis libero sint recusandae, aut eaque, fugiat eveniet repudiandae magni molestiae at!</p>
 		</article>
 
 		<article class="geography__search">
-			<div class="geography__search__content-input">
-				<p class="geography__search__content-input__description">Digite el municipio a buscar:</p>
-
-				<div class="row">
-					<div class="input-field col s4">
+			<div class="geography__search__content z-depth-2">
+				<h1 class="geography__search__content__title z-depth-1 light-green accent-2 grey-text text-darken-3">BUSCA TU CHARCO</h1>
+				<div class="row geography__search__content__input">
+					<div class="input-field col s5">
 						<input id="town" type="text" class="validate">
 						<label for="town">Municipio</label>
 					</div>
-					<a class="waves-effect waves-light btn"><i class="material-icons left">search</i>BUSCAR</a>
+					<a class="col s5 waves-effect waves-light btn light-blue accent-4"><i class="material-icons left">search</i>BUSCAR</a>
 				</div>
 			</div>
 		</article>
