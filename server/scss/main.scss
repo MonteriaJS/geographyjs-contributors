@@ -1,0 +1,57 @@
+@import "../../bower_components/materialize/sass/materialize";
+@import "//fonts.googleapis.com/icon?family=Material+Icons";
+
+$roboto-font-path: "public/fonts/roboto";
+
+html, body {
+	font-size: 16px;
+	background-color: #DEDEDE;
+	color: #343434;
+}
+
+/*Menu*/
+.menu {
+	position: fixed;
+}
+
+.geography {
+	display: flex;
+	&__info {
+		margin: 0;
+		padding: 5rem 1rem 0;
+		background-color: white;
+		height: 100vh;
+		flex-basis: 40%;
+		&__title {
+			margin: .8rem 0;
+			font-size: 2rem;
+		}
+	}
+	&__search {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-image: url('../images/background_index.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding-top: 3.5rem;
+		flex-basis: 60%;
+		&__content {
+			width: 30rem;
+			background-color: white;
+			&__title {
+				margin: 0 0 2rem;
+				text-align: center;
+				color: white;
+				padding: 1rem 0;
+				font-size: 1.5rem;
+			}
+			&__input {
+				margin-right: 4rem;
+				display: flex;
+				align-items: center;
+			}
+		}
+	}
+}
