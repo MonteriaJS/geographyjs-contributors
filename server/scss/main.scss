@@ -9,9 +9,15 @@ html, body {
 	color: #343434;
 }
 
+#map{
+	width: 100vw;
+	height: 100vh;
+}
+
 /*Menu*/
 .menu {
 	position: fixed;
+	z-index: 100;
 }
 
 .geography {
