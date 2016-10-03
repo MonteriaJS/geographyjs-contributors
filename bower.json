@@ -1,0 +1,25 @@
+{
+  "name": "geographyjs-collaborators",
+  "description": "GeographyJS - Contributors",
+  "main": "server.js",
+  "authors": [
+    "Team MonteríaJS <info@monteriajs.org>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "GeographyJS",
+    "MonteríaJS",
+    "Javascript"
+  ],
+  "homepage": "https://github.com/MonteriaJS/geographyjs-collaborators",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.7"
+  }
+}

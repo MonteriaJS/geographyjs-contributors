@@ -1,0 +1,38 @@
+{
+  "name": "geographyjs-collaborators",
+  "version": "1.0.0",
+  "description": "GeographyJS - Contributors",
+  "main": "server.js",
+  "scripts": {
+    "init": "npm install && bower install",
+    "start": "nodemon server/server.js",
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonteriaJS/geographyjs-collaborators.git"
+  },
+  "keywords": [
+    "GeographyJS",
+    "MonteríaJS",
+    "Javascript"
+  ],
+  "author": "Team MonteríaJS <info@monteriajs.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonteriaJS/geographyjs-collaborators/issues"
+  },
+  "homepage": "https://github.com/MonteriaJS/geographyjs-collaborators#readme",
+  "dependencies": {
+    "app-root-dir": "^1.0.2",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
